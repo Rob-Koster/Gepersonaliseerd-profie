@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: lightgray; /* Achtergrondkleur van de body */
+    padding: 20px; /* Ruimte rondom de inhoud */
+}
+
+h1 {
+    text-align: center;
+}
+
+.form {
+    background-color: white; /* Achtergrondkleur van het formulier */
+    padding: 20px; /* Ruimte binnen het formulier */
+    border: 1px solid #ccc; /* Rand van het formulier */
+    border-radius: 5px; /* Afgeronde hoeken voor het formulier */
+    margin-top: 20px; /* Ruimte boven het formulier */
+    max-width: 600px; /* Maximale breedte van het formulier */
+    margin-left: auto; /* Zorgt ervoor dat het formulier gecentreerd wordt */
+    margin-right: auto; /* Zorgt ervoor dat het formulier gecentreerd wordt */
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="date"] {
+    width: calc(100% - 20px); /* Breedte van de inputvelden, met een kleine marge aan beide zijden */
+    padding: 10px; /* Binnenruimte van de inputvelden */
+    margin-bottom: 10px; /* Ruimte onder elk inputveld */
+    border: 1px solid #ccc; /* Rand van de inputvelden */
+    border-radius: 5px; /* Afgeronde hoeken voor de inputvelden */
+    box-sizing: border-box; /* Zorgt ervoor dat padding en border binnen de opgegeven breedte blijven */
+}
+
+.button {
+    width: calc(100% - 20px); /* Breedte van de button, met een kleine marge aan beide zijden */
+    background-color: black; /* Achtergrondkleur */
+    color: white; /* Tekstkleur */
+    padding: 10px 20px; /* Padding (ruimte binnen de knop) */
+    border: none; /* Geen rand */
+    border-radius: 5px; /* Afgeronde hoeken */
+    font-size: 16px; /* Lettergrootte */
+    cursor: pointer; /* Cursorstijl */
+    text-decoration: none; /* Geen onderstreping */
+    display: inline-block; /* Zorgt ervoor dat de knop inline wordt weergegeven */
+}
+
+.button:hover {
+    background-color: rgb(0, 0, 120); /* Achtergrondkleur bij hover */
+}
+
+.button:active {
+    background-color: rgb(0, 0, 120); /* Achtergrondkleur bij actieve staat */
+}
+
+#error-message {
+    margin-top: 20px;
+    color: red;
+    text-align: center;
+}
+
+.CV {
+    margin-top: 10px;
+}
+
+h2 {
+    margin-bottom: -20px;
+    margin-top: 10px;
+}
+
+.section {
+    background-color: white; /* Achtergrondkleur van het formulier */
+    padding: 20px; /* Ruimte binnen het formulier */
+    border: 1px solid #ccc; /* Rand van het formulier */
+    border-radius: 5px; /* Afgeronde hoeken voor het formulier */
+    margin-top: 20px; /* Ruimte boven het formulier */
+    max-width: 450px; /* Maximale breedte van het formulier */
+    min-height: 430px; /* Minimale hoogte van het formulier */
+    margin-left: auto; /* Zorgt ervoor dat het formulier gecentreerd wordt */
+    margin-right: auto; /* Zorgt ervoor dat het formulier gecentreerd wordt */
+}
+
+.label {
+    font-weight: bold;
+}
