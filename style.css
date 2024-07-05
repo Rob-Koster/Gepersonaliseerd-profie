@@ -7,8 +7,8 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: lightgray; /* Achtergrondkleur van de body */
-    padding: 20px; /* Ruimte rondom de inhoud */
+    background-color: lightgray; /* Background color of the body */
+    padding: 20px; /* Space around the content */
 }
 
 h1 {
@@ -16,14 +16,14 @@ h1 {
 }
 
 .form {
-    background-color: white; /* Achtergrondkleur van het formulier */
-    padding: 20px; /* Ruimte binnen het formulier */
-    border: 1px solid #ccc; /* Rand van het formulier */
-    border-radius: 5px; /* Afgeronde hoeken voor het formulier */
-    margin-top: 20px; /* Ruimte boven het formulier */
-    max-width: 600px; /* Maximale breedte van het formulier */
-    margin-left: auto; /* Zorgt ervoor dat het formulier gecentreerd wordt */
-    margin-right: auto; /* Zorgt ervoor dat het formulier gecentreerd wordt */
+    background-color: white; /* Background color of the form */
+    padding: 20px; /* Space inside the form */
+    border: 1px solid #ccc; /* Border of the form */
+    border-radius: 5px; /* Rounded corners for the form */
+    margin-top: 20px; /* Space above the form */
+    max-width: 600px; /* Maximum width of the form */
+    margin-left: auto; /* Centers the form */
+    margin-right: auto; /* Centers the form */
 }
 
 label {
@@ -32,33 +32,33 @@ label {
 
 input[type="text"],
 input[type="date"] {
-    width: calc(100% - 20px); /* Breedte van de inputvelden, met een kleine marge aan beide zijden */
-    padding: 10px; /* Binnenruimte van de inputvelden */
-    margin-bottom: 10px; /* Ruimte onder elk inputveld */
-    border: 1px solid #ccc; /* Rand van de inputvelden */
-    border-radius: 5px; /* Afgeronde hoeken voor de inputvelden */
-    box-sizing: border-box; /* Zorgt ervoor dat padding en border binnen de opgegeven breedte blijven */
+    width: calc(100% - 20px); /* Width of the input fields, with a small margin on both sides */
+    padding: 10px; /* Inner space of the input fields */
+    margin-bottom: 10px; /* Space below each input field */
+    border: 1px solid #ccc; /* Border of the input fields */
+    border-radius: 5px; /* Rounded corners for the input fields */
+    box-sizing: border-box; /* Ensures padding and border are within the specified width */
 }
 
 .button {
-    width: calc(100% - 20px); /* Breedte van de button, met een kleine marge aan beide zijden */
-    background-color: black; /* Achtergrondkleur */
-    color: white; /* Tekstkleur */
-    padding: 10px 20px; /* Padding (ruimte binnen de knop) */
-    border: none; /* Geen rand */
-    border-radius: 5px; /* Afgeronde hoeken */
-    font-size: 16px; /* Lettergrootte */
-    cursor: pointer; /* Cursorstijl */
-    text-decoration: none; /* Geen onderstreping */
-    display: inline-block; /* Zorgt ervoor dat de knop inline wordt weergegeven */
+    width: calc(100% - 20px); /* Width of the button, with a small margin on both sides */
+    background-color: black; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 20px; /* Padding (space inside the button) */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Cursor style */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Ensures the button is displayed inline */
 }
 
 .button:hover {
-    background-color: rgb(0, 0, 120); /* Achtergrondkleur bij hover */
+    background-color: rgb(0, 0, 120); /* Background color on hover */
 }
 
 .button:active {
-    background-color: rgb(0, 0, 120); /* Achtergrondkleur bij actieve staat */
+    background-color: rgb(0, 0, 120); /* Background color when active */
 }
 
 #error-message {
@@ -77,15 +77,15 @@ h2 {
 }
 
 .section {
-    background-color: white; /* Achtergrondkleur van het formulier */
-    padding: 20px; /* Ruimte binnen het formulier */
-    border: 1px solid #ccc; /* Rand van het formulier */
-    border-radius: 5px; /* Afgeronde hoeken voor het formulier */
-    margin-top: 20px; /* Ruimte boven het formulier */
-    max-width: 450px; /* Maximale breedte van het formulier */
-    min-height: 430px; /* Minimale hoogte van het formulier */
-    margin-left: auto; /* Zorgt ervoor dat het formulier gecentreerd wordt */
-    margin-right: auto; /* Zorgt ervoor dat het formulier gecentreerd wordt */
+    background-color: white; /* Background color of the form */
+    padding: 20px; /* Space inside the form */
+    border: 1px solid #ccc; /* Border of the form */
+    border-radius: 5px; /* Rounded corners for the form */
+    margin-top: 20px; /* Space above the form */
+    max-width: 450px; /* Maximum width of the form */
+    min-height: 430px; /* Minimum height of the form */
+    margin-left: auto; /* Centers the form */
+    margin-right: auto; /* Centers the form */
 }
 
 .label {
